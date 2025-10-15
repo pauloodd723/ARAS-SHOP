@@ -1,0 +1,27 @@
+/* style.css */
+
+body {
+    /* Define una fuente y asegura que la página ocupe toda la ventana */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    background-color: #f4f4f9; /* Un fondo suave */
+}
+
+#main-container {
+    text-align: center; /* Asegura que el texto dentro del div esté centrado */
+}
+
+h1 {
+    /* Estilo para el título ARAS-SHOP */
+    font-size: 5em; /* Tamaño grande del título (ajusta si quieres más/menos) */
+    color: #333;   /* Color de texto oscuro */
+    text-transform: uppercase; /* Pone el texto en mayúsculas */
+    letter-spacing: 5px; /* Separa un poco las letras */
+    padding: 20px;
+    border-bottom: 5px solid #007bff; /* Línea decorativa debajo */
+}
